@@ -4,12 +4,12 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Matricula de Alunos</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    <a href="@Url.Action("Create")" class="btn btn-primary">Cadastro de Aluno</a>
 </p>
-<table class="table">
+<table class="table table-striped">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Nome)
@@ -47,9 +47,11 @@
             @Html.DisplayFor(modelItem => item.Ativo)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+
+            <a href="@Url.Action("Edit", "Alunos", new { id = item.id })" class="btn btn-primary">Editar</a>
+            <a href="@Url.Action("Details", "Alunos", new { id = item.id })" class="btn btn-success">Detalhe</a>
+            <a href="@Url.Action("Delete", "Alunos", new { id = item.id })" class="btn btn-danger">Excluir</a>
+
         </td>
     </tr>
 }

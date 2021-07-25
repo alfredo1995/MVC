@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AppMvc",
+    "\\AppMvc\\Models",
+    "\\AppMvc\\Views",
+    "\\AppMvc\\Views\\Alunos",
+    "\\AppMvc\\Views\\Home"
   ],
-  "SelectedNode": "\\AppFuncional.sln",
+  "SelectedNode": "\\AppMvc\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -10,19 +10,17 @@ namespace AppMvc.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: Alunos
+        [HttpGet]
+        [Route("Listar-Alunos")]
         public async Task<ActionResult> Index()
         {
             return View(await db.Alunos.ToListAsync());
         }
 
-        // GET: Alunos/Details/5
-        public async Task<ActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
+        [HttpGet]
+        [Route("Listar-Detalhe/{id:int}")]
+        public async Task<ActionResult> Details(int id)
+        {            
             Aluno aluno = await db.Alunos.FindAsync(id);
             if (aluno == null)
             {
@@ -31,16 +29,15 @@ namespace AppMvc.Controllers
             return View(aluno);
         }
 
-        // GET: Alunos/Create
+        [HttpGet]
+        [Route("Novo-Aluno")]
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Alunos/Create
-        // Para proteger-se contra ataques de excesso de postagem, ative as propriedades específicas às quais deseja se associar. 
-        // Para obter mais detalhes, confira https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Route("Novo-Aluno")]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create([Bind(Include = "id,Nome,Email,CPF,DataMatricula,Ativo")] Aluno aluno)
         {
@@ -54,13 +51,10 @@ namespace AppMvc.Controllers
             return View(aluno);
         }
 
-        // GET: Alunos/Edit/5
-        public async Task<ActionResult> Edit(int? id)
+        [HttpGet]
+        [Route("Editar-Aluno/{id:int}")]
+        public async Task<ActionResult> Edit(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
             Aluno aluno = await db.Alunos.FindAsync(id);
             if (aluno == null)
             {
@@ -69,10 +63,8 @@ namespace AppMvc.Controllers
             return View(aluno);
         }
 
-        // POST: Alunos/Edit/5
-        // Para proteger-se contra ataques de excesso de postagem, ative as propriedades específicas às quais deseja se associar. 
-        // Para obter mais detalhes, confira https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Route("Editar-Aluno/{id:int}")]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit([Bind(Include = "id,Nome,Email,CPF,DataMatricula,Ativo")] Aluno aluno)
         {
@@ -85,13 +77,10 @@ namespace AppMvc.Controllers
             return View(aluno);
         }
 
-        // GET: Alunos/Delete/5
-        public async Task<ActionResult> Delete(int? id)
+        [HttpGet]
+        [Route("Excluir-Aluno/{id:int}")]
+        public async Task<ActionResult> Delete(int id)
         {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
             Aluno aluno = await db.Alunos.FindAsync(id);
             if (aluno == null)
             {
@@ -100,8 +89,7 @@ namespace AppMvc.Controllers
             return View(aluno);
         }
 
-        // POST: Alunos/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("Delete")]        
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> DeleteConfirmed(int id)
         {
