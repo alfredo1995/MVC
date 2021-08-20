@@ -33,7 +33,7 @@ Class Aluno.cs>
        public class Aluno
        {
        } 
-       }
+       } 
     
 Atribuir as propriedades da classe Aluno.Cs >                   
               
