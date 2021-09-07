@@ -11,7 +11,7 @@ Setando as migrations automatica>
 
 	AppFuncional>Migrations> Configurations.cs
 	alterar AutomaticMigrationsEnabled de false para true;
-	  public Configuration()
+	  public Configuration() 
         {
             AutomaticMigrationsEnabled = true;
         }
