@@ -1,3 +1,10 @@
+O MVC é usado para criar sites da web. Neste caso os controladores normalmente retornam uma view(ou seja, a resposta HTML) para solicitações do navegador.
+
+As Web APis, por outro lado, são feitas para serem consumidas por outros aplicativos. Se você deseja permitir que outros aplicativos acessem seus dados/funcionalidades, você pode criar uma Web API para facilitar esse acesso. Por exemplo, o Facebook tem uma API para permitir que desenvolvedores de aplicações acessem informações sobre os usuários que usam a aplicação.
+
+A principal diferença entre os tipos de projeto é que o tipo de projeto MVC adiciona coisas específicas da web como padrão CSS, arquivos JavaScript e outros recursos necessários para um web site, que não são necessários para uma API.
+
+
 crate new projetc > criar uma Solução Vazia  > Solution AppFuncional
 
         Seleciona a Soluiton AppFuncional >  criar um novo projeto > ASP.NET Web Application (.NET Framework)
