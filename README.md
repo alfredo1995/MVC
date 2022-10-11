@@ -21,7 +21,7 @@ Setando as migrations automatica>
 	  public Configuration() 
         { 
             AutomaticMigrationsEnabled = true;
-        } 
+        }  
 
 Disponibilizando banco de dados / Habilitando as migrations
         
