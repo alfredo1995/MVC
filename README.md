@@ -4,7 +4,7 @@ As Web APis, por outro lado, são feitas para serem consumidas por outros aplica
 
 A principal diferença entre os tipos de projeto é que o tipo de projeto MVC adiciona coisas específicas da web como padrão CSS, arquivos JavaScript e outros recursos necessários para um web site, que não são necessários para uma API.
 
-<br> 
+<br>  
 
 crate new projetc > criar uma Solução Vazia  > Solution AppFuncional
 
