@@ -9,7 +9,7 @@ A principal diferença entre os tipos de projeto é que o tipo de projeto MVC ad
 crate new projetc > criar uma Solução Vazia  > Solution AppFuncional
 
         Seleciona a Soluiton AppFuncional >  criar um novo projeto > ASP.NET Web Application (.NET Framework)
- 
+  
  
 Setup da do novo projeto ASP.NET Web Application (.NET Framework) entro da solution AppFuncional
 
