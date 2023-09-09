@@ -14,7 +14,7 @@ crate new projetc > criar uma Solução Vazia  > Solution AppFuncional
 Setup da do novo projeto ASP.NET Web Application (.NET Framework) entro da solution AppFuncional
 
         Nome AppMvc >dentro Repos > dentro AppFuncional > ASP.NET Web Application > MVC > CHANGE > Individual user acounts
-
+ 
 Setando as migrations automatica>   
 
 	AppFuncional>Migrations> Configurations.cs 
