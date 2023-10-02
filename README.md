@@ -1,8 +1,8 @@
-O MVC é usado para criar sites da web. Neste caso os controladores normalmente retornam uma view(ou seja, a resposta HTML) para solicitações do navegador.
+MVC is used to create websites. In this case, controllers typically return a view (i.e., the HTML response) for browser requests.
 
-As Web APis, por outro lado, são feitas para serem consumidas por outros aplicativos. Se você deseja permitir que outros aplicativos acessem seus dados/funcionalidades, você pode criar uma Web API para facilitar esse acesso. Por exemplo, o Facebook tem uma API para permitir que desenvolvedores de aplicações acessem informações sobre os usuários que usam a aplicação.
+Web APis, on the other hand, are made to be consumed by other applications. If you want to allow other applications to access your data/functionality, you can create a Web API to facilitate this access. For example, Facebook has an API to allow application developers to access information about users using the application.
 
-A principal diferença entre os tipos de projeto é que o tipo de projeto MVC adiciona coisas específicas da web como padrão CSS, arquivos JavaScript e outros recursos necessários para um web site, que não são necessários para uma API.
+The main difference between the project types is that the MVC project type adds web-specific things like standard CSS, JavaScript files and other resources required for a website, which are not required for an API.
 
 <br>  
  
