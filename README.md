@@ -75,11 +75,11 @@ Assign class properties Aluno.Cs >
             }
         }
 
-Comando para copilar a aplicacao para execuçoes dos proximos passos
+Command to compile the application to perform the next steps
 
         crtl + shift + b 
 
-Criar o Crud de Alunos 
+Create o Crud de Alunos 
        
         AppFuncional>AppMvc>Controller> Criar Controller> Escolher MVC 5 Controller With Views, Using Entity Framework > ADD 
         
@@ -87,7 +87,7 @@ Criar o Crud de Alunos
 
         Nome da controlle : AlunosController > add 
         
-Adicionar o DbSet na  AppFuncional>AppMVC>Models>IdentityModels.cs
+Add o DbSet na  AppFuncional>AppMVC>Models>IdentityModels.cs
 
     using System.Data.Entity;
 	using System.Data.Entity.ModelConfiguration.Conventions;
@@ -135,16 +135,16 @@ Adicionar o DbSet na  AppFuncional>AppMVC>Models>IdentityModels.cs
 	}
 
 
-Comando para copilar a aplicacao para execuçoes dos proximos passos
+Command to compile the application to perform the next steps
 
         crtl + shift + b 
 
 
-Atualiza o banco de dados para a última migração ou para uma migração especificada
+Updates the database to the last migration or a specified migration
 
         Packge manager Console> Update-Database -Verbose 
 
-Configurar o mapeamento de rota por attributos
+Configure route mapping by attributes
 
         app.start > RouteConfig.cs      =    routes.MapMvcAttributeRoutes();
 
