@@ -15,7 +15,7 @@ Setup of the new ASP.NET Web Application (.NET Framework) project within the App
 
         Nome AppMvc >dentro Repos > dentro AppFuncional > ASP.NET Web Application > MVC > CHANGE > Individual user acounts
  
-Setando as migrations automatica>   
+Setting the migrations automatica>   
 
 	AppFuncional>Migrations> Configurations.cs 
 	alterar AutomaticMigrationsEnabled de false para true;
