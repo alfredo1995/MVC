@@ -11,7 +11,7 @@ crate new projetc > criar uma Solução Vazia  > Solution AppFuncional
         Seleciona a Soluiton AppFuncional >  criar um novo projeto > ASP.NET Web Application (.NET Framework)
   
  
-Setup da do novo projeto ASP.NET Web Application (.NET Framework) entro da solution AppFuncional
+Setup of the new ASP.NET Web Application (.NET Framework) project within the AppFuncional solution
 
         Nome AppMvc >dentro Repos > dentro AppFuncional > ASP.NET Web Application > MVC > CHANGE > Individual user acounts
  
@@ -24,12 +24,12 @@ Setando as migrations automatica>
             AutomaticMigrationsEnabled = true;
         }   
 
-Disponibilizando banco de dados / Habilitando as migrations
-        
+Making database available / Enabling migrations
+
         packge manager console> enable-migrations            
         packge manager console> Update-Database -Verbose -force     
         
-Criar o Scafolding da Aplicação
+Create Application Scafolding
 
        AppFuncional>AppMvc>Models> Criar class Aluno.cs
        
@@ -43,7 +43,7 @@ Class Aluno.cs>
        } 
        } 
     
-Atribuir as propriedades da classe Aluno.Cs >                   
+Assign class properties Aluno.Cs >                   
               
         using System;
         using System.ComponentModel;
