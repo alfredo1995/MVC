@@ -9,3 +9,4 @@ The main difference between the project types is that the MVC project type adds 
 
 https://github.com/alfredo1995/MVC/assets/71193893/b442e59c-293b-49fc-9346-8866c59c9e62
 
+ 
