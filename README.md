@@ -12,7 +12,7 @@ crate new projetc > criar uma Solução Vazia  > Solution AppFuncional
   
  
 Setup of the new ASP.NET Web Application (.NET Framework) project within the AppFuncional solution
-
+ 
         Nome AppMvc >dentro Repos > dentro AppFuncional > ASP.NET Web Application > MVC > CHANGE > Individual user acounts
  
 Setting the migrations automatica>   
